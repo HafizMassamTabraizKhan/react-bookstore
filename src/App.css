@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
 
 * {
   padding: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f5f6fa;
   padding: 4%;
 }
@@ -43,6 +43,7 @@ nav {
   opacity: 0.5;
   color: #121212;
   letter-spacing: 1.9px;
+  font-size: 0.83rem;
 }
 
 .active-link {
@@ -98,10 +99,14 @@ nav {
 
 .title {
   margin-top: 0.188rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.375rem;
 }
 
 .author {
   color: #4386bf;
+  font-weight: 500;
+  font-family: "Roboto Slab", serif;
 }
 
 .buttons {
@@ -111,10 +116,12 @@ nav {
 }
 
 .book-btn {
+  font-family: "Roboto Slab", serif;
   background-color: transparent;
   border: none;
   color: #4386bf;
   cursor: pointer;
+  font-weight: 200;
 }
 
 .divider {
@@ -178,12 +185,16 @@ nav {
   color: #121212;
   font-size: 0.813rem;
   opacity: 0.5;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .current-chapter {
   margin-top: 0.438rem;
   font-size: 1rem;
   color: #121212;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .btn-blue {
@@ -191,11 +202,13 @@ nav {
   border: none;
   background-color: #0290ff;
   border-radius: 3px;
-  padding: 6px;
+  padding: 8px 20px;
   text-align: center;
   color: #fff;
   width: 75%;
   font-size: 0.813rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .horizontal-divider {
@@ -223,6 +236,7 @@ nav {
   background-color: #fff;
   font-size: 1rem;
   color: #121212;
+  font-family: "Montserrat", sans-serif;
 }
 
 .title-input {
@@ -243,5 +257,6 @@ nav {
   letter-spacing: 0.5px;
   color: #fff;
   font-size: 0.813rem;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Roboto Slab", serif;
 }

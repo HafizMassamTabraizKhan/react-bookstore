@@ -7,8 +7,8 @@ const Navbar = () => (
     <Link className="logo" to="/"><h1>Bookstore CMS</h1></Link>
     <nav>
       <ul className="nav-links">
-        <li className="nav-link active-link"><Link to="/">Books</Link></li>
-        <li className="nav-link"><Link to="/categories">Categories</Link></li>
+        <li className="nav-link active-link"><Link to="/">BOOKS</Link></li>
+        <li className="nav-link"><Link to="/categories">CATEGORIES</Link></li>
       </ul>
     </nav>
     <div className="icon-div"><ImUser /></div>
