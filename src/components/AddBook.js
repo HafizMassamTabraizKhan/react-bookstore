@@ -18,30 +18,30 @@ const AddBook = () => {
       category: 'fiction',
     };
     dispatch(postBook(newBook));
-    // dispatch(addBook(newBook));
     setTitle('');
     setAuthor('');
-    // dispatch(addBook(newBook));
-    // setTitle('');
-    // setAuthor('');
   };
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <h2 className="form-heading">ADD NEW BOOK</h2>
+      <form className="add-form" onSubmit={handleSubmit}>
         <input
+          className="input title-input"
           type="text"
           placeholder="Book name"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <input
-          type="text"
-          placeholder="Author"
-          value={author}
+        <select
+          className="input categry-select-box"
           onChange={(e) => setAuthor(e.target.value)}
-        />
-        <button type="submit">Submit</button>
+        >
+          <option value="Action">Action</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Economy">Economy</option>
+        </select>
+        <button type="submit" className="add-book-btn">ADD BOOK</button>
       </form>
     </div>
   );
